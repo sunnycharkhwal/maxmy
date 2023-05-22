@@ -1,1427 +1,1514 @@
 @import "--var.scss";
 @import "--mixing.scss";
 @media (max-width: 320px) {
-  .notification_outer_text {
-    p {
-      font-size: 13px;
-    }
-  }
-  .Asset_main_div2 {
-    display: block;
-  }
-  .JobsType_card {
-    ul {
-      .JobsType_card_menu {
-        right: 39px;
-      }
-    }
-  }
-  .HolidaysSetting_main_div {
-    display: block;
+  .saved_cards_number {
+    justify-content: left !important;
   }
 }
 @media (max-width: 576px) {
-  .login_input_div {
+  .all_h1_title {
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 43px;
+  }
+  .all_h1_title_p {
+    text-align: justify;
+  }
+  .our_approach_title_div {
     p {
-      font-size: 11px;
-      padding: 0 3rem;
+      font-size: 14px;
+      text-align: justify;
     }
   }
-  .login_input_col_div {
-    height: auto;
-    width: auto;
-  }
-  .login_slider_col_div {
-    display: none;
-  }
-  .notifications_all_div {
-    .notification_outer_text {
-      width: 80%;
-      p {
-        text-align: unset;
-        font-size: 12px;
-      }
-    }
-    .notification_outer {
-      .notification_outer_delete {
-        position: absolute;
-        right: 7px;
-        top: 6px;
-      }
-      .notification_outer_delete {
-        svg {
-          font-size: 18px;
-          cursor: pointer;
-        }
-      }
-    }
-  }
-  .notification_outer {
-    .notification_img {
-      height: 2rem;
-      width: 2rem;
-    }
-  }
-  .css-1gnuwzo-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper:before {
-    display: none !important;
-  }
-
-  .Salary_Slip_Template_img_div {
-    width: 17rem;
-    height: 24rem;
-  }
-  .Salary_Slip_Template_img {
-    width: 17rem;
-    height: 24rem;
-  }
-  .approve_input {
-    margin-top: 3rem;
-  }
-  .approve_input_btn {
-    position: absolute;
-    top: 11px;
-    right: 13px;
-    margin: 0;
-  }
-  .approval_title_main_div {
-    display: block;
-    position: relative;
-    .setting_text {
-      margin-top: 25px;
-    }
-  }
-  .approval_title2 {
+  .our_approach_col_div {
     h3 {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 10px;
-      position: absolute;
-      top: 6px;
-      right: 13px;
-      font-size: 15px;
+      font-weight: 500 !important;
+      font-size: 20px !important;
     }
-  }
-  .approval_title {
-    h3 {
-      position: absolute;
-      top: 6px;
-      left: 13px;
-      font-size: 15px;
-    }
-  }
-  .hand_over_form_top_inner_div {
-    width: 100%;
-  }
-  .HandOverList_top_div {
-    display: block;
-  }
-  .return_asset_list_top_div {
-    display: block;
-  }
-  .status_top_div_inner {
-    width: 100%;
-  }
-  .status_top_div_inner_data {
-    padding-left: 1rem !important;
-  }
-  .Resignation_form_div {
-    width: 100%;
-  }
-  .upload_document_list_main_div {
-    display: block;
-  }
-  .UploadDocument_select {
-    .dashboard_top_week_Select {
-      width: 100%;
-    }
-  }
-  .projact_right_filter_btn_div {
-    .UploadDocumentModal_body_btn {
-      padding: 5px 40px;
-    }
-    .UploadDocumentModal_body_btn2 {
-      padding: 7px 30px;
-    }
-  }
-  .projact_right_filter_data {
-    height: 30rem;
-  }
-  .projact_right_filter_div {
-    .MuiPaper-root {
-      top: 6rem !important;
-      height: 84% !important;
-      right: 11px !important;
-      width: 95% !important;
-      border-radius: 10px !important;
-    }
-  }
-  .Projects_btn_div {
-    border: 1px solid black;
     p {
-      display: none;
+      font-size: 12px;
+      text-align: justify;
     }
   }
-  .notifications_btn {
-    padding: 7px 0;
-    margin: 0;
-    background-color: $c2;
-    padding-bottom: 10px;
-    a {
-      color: white;
-    }
-  }
-  .HolidayslistPage_main_div {
-    display: block;
-  }
-  .AddDepartment_inner_div {
-    width: 100%;
-  }
-  .add_asset_right_btn {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .AddAsset_top_inner_div {
-    width: 100%;
-  }
-  .asset_card_icon {
-    margin: auto;
-  }
-  .asset_card_text_div {
-    text-align: center;
-    padding-left: 0;
-  }
-  .Asset_main_div {
-    display: block;
-  }
-  .Contractor_Management_main_div {
-    display: block;
-  }
-  .document_verification_app_btn_div {
-    button {
-      margin-top: 10px;
-      width: 100%;
-    }
-  }
-  .Completed_Jobs_List_feedback_star {
-    justify-content: flex-start;
-    font-size: 12px;
-    span {
-      font-size: 12px !important;
-    }
-  }
-  .Schedule_Interview_chips {
-    .css-2m9kme-MuiFormControl-root {
-      width: 100%;
-    }
-  }
-  .ScheduleInterview_top_div {
-    width: 100%;
-  }
-  .Application_btn_div {
-    display: block;
-    button {
-      width: 100%;
-    }
-    .dropdown {
-      button {
-        width: 100%;
-        margin-top: 1rem;
-      }
-    }
-  }
-  .design_application_mobile {
+  .our_approach_title_div {
     margin-bottom: 1rem;
-    p {
-      font-weight: 600;
+    h3 {
+      font-weight: 700 !important;
+      font-size: 27px !important;
     }
   }
-  .design_application_text_div {
+  .website_redesign_text_div {
     p {
       text-align: justify;
     }
   }
-  .JobsList_copy_btn_div {
-    display: block;
-    button {
-      width: 100%;
-      margin-left: 0;
-      margin-top: 10px;
+  .website_redesign_text_div_btn {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+  .your_slow_loading {
+    h3 {
+      margin-top: 1.5rem;
     }
   }
-  .datetime_local_top_div {
-    justify-content: start;
-    margin-bottom: 10px;
-  }
-  .EmployeesProfileCard_top_div {
-    position: relative;
-    .css-2m9kme-MuiFormControl-root {
-      width: 100% !important;
-    }
-  }
-  .ProgressBar_top_edit {
-    top: 5px;
-    right: 10px;
-  }
-  .datetime_local_butn_top_div {
-    display: flex;
-    width: auto;
-    height: auto;
-  }
-  .datetime_local_butn {
-    .button2 {
-      margin-bottom: 0;
-      margin-right: 5px;
-      width: 7rem;
-    }
-    .button1 {
-      margin-left: 5px;
-    }
-  }
-
-  .JobsList_img {
-    height: 3rem;
-    width: 3rem;
-  }
-  .interviews_round_tabs_div {
-    .nav-item {
-      width: 100% !important;
-    }
-    .nav {
-      flex-wrap: nowrap !important;
-    }
-  }
-  .new_application_tabs_div {
-    .nav-item {
-      width: 100%;
-    }
-  }
-  .new_application_item {
-    .new_application_tabs1 {
-      width: 100%;
-      margin-bottom: 1rem;
-    }
-  }
-  .TotalOpenings_input_div {
-    input {
-      width: 100%;
-    }
-  }
-  .upcoming_interviews_ul {
-    li {
-      padding: 6px 15px;
-    }
-  }
-  .HiringIndexCard_more_card_div {
-    padding: 2.4rem;
-  }
-  .AppraisalSetting_inner_main_div {
-    width: 100%;
-  }
-  .ReimbursementSetup_main_div {
-    display: block;
-  }
-  .default_salary_stracture_main_div {
-    display: grid;
-  }
-  .dashboard_setup_top_main_div_inner {
-    width: 100%;
-  }
-  .dashboard_setup_select {
-    width: 100%;
-    margin-left: 0;
-  }
-  .dashboard_setup_title {
-    padding: 1rem 1rem;
-  }
-  .CompanySetup_tab {
-    .nav {
-      margin-bottom: 1.5rem;
-    }
-  }
-  .CompanySetup_checkbox_div {
-    .CompanySetup_checkbox_label {
-      font-size: 12px;
-    }
-  }
-  .CompanySetup_inner_main_div {
-    width: 100%;
-  }
-  .MissingInformation_main_div {
-    display: block;
-  }
-  .Reports_main_div {
-    display: block;
-  }
-  .Reports_card_inner_div {
-    p {
-      font-size: 14px;
-    }
-  }
-  .feedback_main_div {
-    padding-top: 1rem;
-  }
-  .Feedback_Ratings_btn_div {
+  .your_slow_loading_btn {
     text-align: center;
+    margin-top: 2rem;
   }
-  .Feedback_Ratings_div {
-    margin-bottom: 1.5rem;
-  }
-  .Feedback_Ratings_main_div {
-    display: block;
-  }
-  .feedback_icon_top_div {
-    justify-content: center;
-    margin-bottom: 1.5rem;
-  }
-  .UserAppraisalDate_list_btn {
-    .nav-item {
-      width: 100%;
+  .your_slow_loading {
+    h3 {
+      font-weight: 700 !important;
+      font-size: 24px !important;
       text-align: center;
     }
-  }
-  .Appraisal_stap_1_top_btn {
-    right: 0;
-  }
-  .Appraisal_stap_1_like_btn {
-    padding: 3rem 1rem;
     p {
-      span {
-        svg {
-          font-size: 25px;
-        }
-      }
+      font-size: 15px;
+      text-align: justify;
     }
   }
-  .Appraisal_progress_bar_custom_container {
-    margin: 0 0;
-    .IssueAssets_btn_bottom_div2 {
-      display: flex;
-    }
-  }
-  .MyPerformance_chart_div2 {
-    margin-top: 8px;
-  }
-  .GreenModal_card {
+  .your_slow_loading_ul {
     margin-bottom: 1rem !important;
-  }
-  .profil_emp_inter_page_title {
-    font-size: 14px;
-  }
-  .MyAttendence_dashbaord_calendar_iner_text_div {
-    display: block;
-  }
-  .MyAttendence_dashbaord_calendar {
-    height: 24rem !important;
-    .react-calendar__navigation {
-      margin-bottom: 0em !important;
-      button {
-        font-size: 15px !important;
+    .first_li {
+      justify-content: center;
+      p {
+        font-weight: 500;
+        font-size: 20px;
       }
-    }
-    .react-calendar__tile {
-      padding: 10px 6.6667px !important;
-    }
-    abbr[data-bs-original-title],
-    abbr[title] {
-      text-decoration: none !important;
-      font-size: 14px !important;
-    }
-    .react-calendar__navigation__label {
-      font-size: 15px !important;
-    }
-  }
-  .profile_input_div_finance {
-    display: block;
-  }
-  .IssueAssets_btn_bottom_div2 {
-    display: block;
-    button {
-      width: 100%;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-  }
-  .SalaryStracture_top_tabel_top_div1 {
-    display: block;
-  }
-  .SalaryStracture_top_tabel_top_div {
-    display: block;
-  }
-  .IssueAssets_top_div {
-    display: block;
-  }
-  .Experience_timline_edit_img {
-    right: 8%;
-  }
-  .Experience_top_btn_div {
-    text-align: center;
-  }
-  .Experience_top_btn {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 1rem;
-  }
-  .Experience_timline_title_iner {
-    h4 {
-      margin-top: 1rem;
-    }
-  }
-  .UploadDocumentModal_body_btn {
-    padding: 10px 40px;
-  }
-  .UploadDocumentModal_body_btn2 {
-    padding: 10px 40px;
-  }
-  .EmployeesTabPanDataImg {
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-  .btnupload_bottom {
-    height: 48px;
-    width: 200px;
-  }
-  .btnupload {
-    height: 48px;
-    width: 200px;
-  }
-  .UploadDocument_img_div {
-    margin: 0;
-    margin-top: 2rem;
-  }
-  .UploadDocument_img_div_iner {
-    width: 100%;
-  }
-  .UploadDocument_select {
-    display: block;
-  }
-  .EmployeesDocument_list_top_div {
-    .nav-item {
-      width: auto !important;
-    }
-    .nav {
-      flex-wrap: wrap !important;
-    }
-  }
-  .AboutProfile_img_div_col {
-    text-align: center;
-  }
-  .AboutProfile_img_div {
-    border-radius: 100%;
-    width: auto;
-  }
-  .AboutProfile_img {
-    height: 13rem;
-    border-radius: 100%;
-    width: 13rem;
-  }
-  .profile_tab_div {
-    .profile_tab_div2 {
-      .nav {
-        display: flex;
-      }
-      .dashboard_top_week_Select {
-        margin-top: 1rem;
-      }
-    }
-    .nav-pills {
-      .nav-link {
-        width: auto;
-        margin: 2px;
-        border-radius: 6px;
-        font-size: 12px;
+      img {
+        width: 35px;
+        height: 35px;
       }
     }
   }
-
-  .EmployeesProfileCard_div_info {
-    border: none;
-    justify-content: unset;
-  }
-  .ProgressBar_top_div {
-    width: 100%;
-  }
-  .ProgressBar_top_main_div {
-    position: unset;
-  }
-  .EmployeesProfileCard_text_div {
-    margin-top: 0px;
-  }
-  .EmployeesProfileCard_icon_div_main {
-    width: 100%;
-  }
-  .EmployeesProfileCard_info_user {
-    p {
-      font-size: 12px;
-    }
-  }
-  .EmployeesProfileCard_info {
-    margin-top: 8px;
-    width: 100%;
-    p {
-      font-size: 12px;
-      margin-bottom: 4px;
-      span {
-        svg {
-          margin-right: 5px;
-          font-size: 15px;
-          margin-top: 0px;
-        }
-      }
-    }
-  }
-  .EmployeesProfileCard_text_div {
+  .why_you_need_number {
     h3 {
-      font-size: 18px;
-    }
-    p {
-      font-size: 10px;
-    }
-  }
-  .EmployeesProfileCard_icon {
-    width: 3rem;
-    height: 3rem;
-  }
-  .profile_tab_div {
-    .nav-item {
-      width: auto;
-      text-align: center;
-    }
-  }
-  .profile_top_title_iner_div {
-    display: block;
-  }
-  .profile_top_title2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  .profile_input_div {
-    width: 100%;
-    margin: 0;
-    margin-top: 1rem;
-  }
-  .notification_top_new2 {
-    width: 100%;
-    height: 100%;
-    .notification_top_div {
-      background: white;
-    }
-  }
-  .PostUser_Comment_user_icon_img {
-    margin-top: 1px;
-  }
-  .EditPost_attachment_teat {
-    p {
-      font-size: 17px;
-    }
-  }
-  .EditPost_img_post {
-    margin-top: 0rem;
-  }
-  .EditPost_img {
-    width: 100%;
-    margin: auto;
-    margin-top: 1.5rem;
-  }
-  .UserPost_img {
-    height: 10rem;
-  }
-  .PostUser_sub_Comment_user {
-    margin-left: 0rem;
-    p {
-      font-size: 13px;
-      margin-top: 6px;
-      margin-right: 0rem;
-    }
-  }
-  .PostUser_text {
-    padding: 1rem 0rem 0rem 0rem;
-    p {
-      font-size: 18px;
-    }
-  }
-  .PostUser_user_icon {
-    height: 2rem;
-    width: 2rem;
-  }
-  .PostUser_user_icon_name {
-    h3 {
-      font-size: 13px;
-    }
-  }
-  .PostUser_user_icon_ul {
-    li {
-      margin-right: 10px;
-    }
-  }
-  .PostUser_user_icon_name_star_top_div {
-    position: absolute;
-    top: 3%;
-    right: 2%;
-  }
-  .WhoAwayAppPopup_top_div {
-    top: -10%;
-    left: 6%;
-  }
-  .WhoAwayAppCard_top_img_div {
-    margin-right: 1rem;
-    .celebrations_card_img {
-      width: 2rem;
-      height: 2rem;
-    }
-  }
-
-  .UserDetailsList_icon_top_div {
-    span {
-      color: $blue;
-    }
-  }
-  .table_top_div {
-    display: block;
-  }
-  .ApprovalsCard_modal_icon_btn_div {
-    display: block;
-    top: 41%;
-    left: 40%;
-  }
-  .ApprovalsCard_modal_pic_overlay {
-    height: 100%;
-    width: 100%;
-    display: block;
-  }
-  .ApprovalsCard_modal_pic_bottom_title_div {
-    width: 100%;
-    display: none;
-  }
-  .ApprovalsCard_modal_pic {
-    width: 100%;
-    height: 20rem;
-  }
-  .TimesheetReview_main_div {
-    display: block;
-  }
-  .ApprovalDetailsPage_btn {
-    height: 50px;
-    width: 220px;
-    margin: 8px 0 !important;
-  }
-  .ApprovalDetailsPage_main_div {
-    display: block;
-  }
-  .ApprovalDetailsPage_search_input_iner_div {
-    span {
-      left: 2%;
-    }
-    input {
-      padding-left: 38px;
-    }
-  }
-  .ApprovalDetailsPage_date_picker {
-    input {
-      letter-spacing: normal;
-    }
-  }
-  .ApprovalDetailsPage_search_input {
-    display: block;
-    align-items: unset;
-    justify-content: unset;
-  }
-  .reimbursement_card_options {
-    p {
-      padding: 2px 18px 2px 10px;
-      font-size: 13px;
-      &:hover {
-        padding: 2px 18px 2px 10px;
-        font-size: 13px;
-      }
-    }
-  }
-  .working_time_info {
-    &:hover {
-      box-shadow: none;
-    }
-  }
-  .dashboard_top_week_Select2 {
-    .css-14el2xx-placeholder {
-      font-size: 12px;
-    }
-    .css-319lph-ValueContainer {
-      padding: 0;
-    }
-  }
-  .working_time_info {
-    p {
-      font-size: 13px;
-    }
-  }
-  .celebrations_card_user_info {
-    h5 {
-      font-size: 14px;
-    }
-  }
-  .reimbursement_top_title_link_page {
-    margin-top: -4px;
-  }
-  .working_time_info_main_div {
-    height: 89%;
-  }
-  .page_top_title {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    border-bottom: 1px solid;
-    padding-bottom: 10px;
-  }
-  .page_top_title {
-    h3 {
-      font-size: 16px;
-    }
-  }
-
-  .dashbaord_white_title {
-    p {
-      font-size: 13px;
-    }
-  }
-  .custom_container {
-    padding: 14px;
-  }
-  .celebrations_card_user_info {
-    text-align: center;
-  }
-  .profile_list_title {
-    font-size: 12px;
-  }
-  .user_profile_name {
-    font-size: 25px;
-  }
-  .dashboard_top_user_name {
-    text-align: center;
-    h3 {
-      margin-bottom: 1rem;
-      font-size: 20px;
-      span {
-        font-size: 13px;
-      }
-    }
-  }
-  .user_input {
-    margin-bottom: 1rem;
-  }
-  .profile_img_top_div {
-    padding: 0 25px;
-  }
-  .notification_time_div {
-    text-align: center;
-    p {
-      font-size: 11px;
-      color: black;
-    }
-  }
-  .notification_mess {
-    font-size: 13px;
-  }
-  .notification_top_div {
-    background-color: #dde2ff;
-  }
-  .HiredCandidates_tabel_main_div {
-    display: block;
-  }
-}
-@media (min-width: 768px) {
-  .slider_text_my_inner {
-    margin-top: -6rem;
-  }
-  .login_input_div {
-    p {
-      padding: 0 3rem;
-    }
-  }
-  .HandOverList_top_div {
-    display: block;
-  }
-  .return_asset_list_top_div {
-    display: block;
-  }
-  .status_top_div_inner {
-    width: 70%;
-  }
-  .Experience_timline_img {
-    margin-bottom: 10px !important;
-    margin: unset;
-  }
-  .projact_right_filter_data {
-    height: 24rem;
-  }
-  .projact_right_filter_div {
-    .MuiPaper-root {
-      width: 60% !important;
-      height: 70% !important;
-    }
-  }
-  .AddDepartment_inner_div {
-    width: 70%;
-  }
-  .AddAsset_top_inner_div {
-    width: 100%;
-  }
-  .add_asset_right_btn {
-    font-size: 11px;
-    span {
-      svg {
-        font-size: 12px;
-      }
-    }
-  }
-  .Contractor_Management_main_div {
-    display: block;
-  }
-  .Completed_Jobs_List_feedback_star {
-    justify-content: flex-start;
-  }
-  .document_verification_app_btn_div {
-    button {
-      margin-top: 10px;
-      width: 100%;
-    }
-  }
-  .ScheduleInterview_top_div {
-    width: 100%;
-  }
-  .HiredCandidates_tabel_main_div {
-    display: block;
-  }
-  .Feedback_Ratings_div_hired {
-    span {
-      font-size: 9px !important;
-      margin-left: 2px;
-    }
-    h6 {
-      margin-left: 4px;
-      font-size: 8px;
-    }
-  }
-  .JobsList_img {
-    height: 2rem;
-    width: 2rem;
-  }
-  .new_application_item {
-    .new_application_tabs1 {
-      width: 21.4rem;
+      font-size: 25px;
       margin-bottom: 1.5rem;
     }
-  }
-  .TotalOpenings_input_div {
-    input {
-      width: 100%;
-    }
-  }
-  .HiringIndexCard_more_card_div {
-    padding: 2.4rem;
-  }
-  .AppraisalSetting_inner_main_div {
-    width: 70%;
-  }
-  .default_salary_stracture_main_div {
-    display: grid;
-  }
-  .CompanySetup_inner_main_div {
-    width: 100%;
-  }
-  .Reports_main_div {
-    display: block;
-  }
-  .Reports_card_inner_div {
-    p {
-      font-size: 16px;
-    }
-  }
-  .Appraisal_stap_1_top_btn {
-    right: -2rem;
-  }
-  .Appraisal_progress_bar_custom_container {
-    margin: 0 2rem;
-  }
-  .MyPerformance_chart_div2 {
-    margin-top: 8px;
-  }
-  .profile_input_div_finance {
-    display: block;
-  }
-  .profile_tab_div2 {
-    .nav-item {
-      margin: 2px;
-      margin-bottom: 2px;
-      width: 11.1rem;
-      text-align: center;
-    }
-    .nav-pills {
-      .nav-link {
-        border-radius: 6px !important;
-      }
-    }
-  }
-  .Experience_timline_edit_img {
-    right: 4%;
-  }
-  .EmployeesProfileCard_text_div {
-    margin-top: 10px;
-    h3 {
-      font-size: 18px;
-    }
-    p {
-      font-size: 10px;
-    }
-  }
-  .EmployeesProfileCard_icon {
-    width: 3rem;
-    height: 3rem;
-  }
-  .notification_top_new2 {
-    width: 63vw;
-    height: 37rem;
-  }
-  .EditPost_img {
-    width: 100%;
-    height: 13rem;
-    margin-top: 1.5rem;
-  }
-  .UserPost_img {
-    height: 27rem;
-  }
-  .whp_away_card_overflow_div {
-    height: 18rem;
-  }
-  .WhoAwayAppCard_top_img_div {
-    margin-right: 1rem;
-  }
-  .ApprovalsCard_modal_pic_overlay {
-    width: 14rem;
-  }
-  .ApprovalsCard_modal_pic {
-    width: 14rem;
-  }
-  .ApprovalsCard_modal_pic_bottom_title_div {
-    width: 14rem;
-  }
-  .ApprovalDetailsPage_main_div {
-    display: block;
-  }
-  .ApprovalDetailsPage_search_input_iner_div {
-    span {
-      left: 2%;
-    }
-    input {
-      padding-left: 38px;
-    }
-  }
-  .ApprovalDetailsPage_search_input {
-    display: block;
-    align-items: unset;
-    justify-content: unset;
-  }
-  .dashbaord_imfo_card_text {
     h4 {
+      font-size: 35px;
+    }
+    p {
       font-size: 15px;
     }
   }
-  .top_nav_iner_div_input {
-    margin: 0 2rem;
-  }
-  .menu_container {
-    height: 35rem;
-  }
-}
-@media (min-width: 1024px) {
-  .slider_text_my_inner {
-    margin-top: -3rem;
-  }
-  .login_input_div {
+  .why_you_need_top_text {
     p {
-      padding: 0 3rem;
+      font-size: 18px;
+      text-align: justify;
     }
   }
-  .HandOverList_top_div {
-    display: inline-table;
-  }
-  .return_asset_list_top_div {
-    display: inline-table;
-  }
-  .status_top_div_inner {
-    width: 50%;
-  }
-  .projact_right_filter_data {
-    height: 37rem;
-  }
-  .projact_right_filter_div {
-    .MuiPaper-root {
-      width: 42% !important;
-      height: 75% !important;
+  .website_redesign_text_img_div {
+    img {
+      width: 100%;
+      height: 25rem;
+      margin-top: 0rem;
     }
   }
-  .AddDepartment_inner_div {
-    width: 50%;
+  .website_redesign_text_div {
+    text-align: center;
+    padding-top: 5rem !important;
+    h3 {
+      font-size: 18px !important;
+      font-weight: 600 !important;
+    }
   }
-  .RejectedDetails_time {
-    justify-content: flex-start !important;
+  .Agreement_btn_div {
+    button {
+      width: 50%;
+    }
   }
-  .AddAsset_top_inner_div {
-    width: 90%;
+  .Search_my_div {
+    width: 100%;
+    img {
+      width: 15px;
+    }
+    input {
+      padding-left: 45px;
+    }
   }
-  .add_asset_right_btn {
-    font-size: 14px;
-    span {
-      svg {
+  .accept_cookies_img_div {
+    img {
+      height: 11rem;
+      width: 17rem;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .accept_cookies_main_div {
+    width: 95%;
+  }
+  .video_div {
+    width: 100%;
+    height: 15rem;
+  }
+  .view_case_studies_text_div {
+    text-align: center;
+    h3 {
+      font-weight: 700 !important;
+      font-size: 24px !important;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+  .view_case_studies_img {
+    width: 100%;
+    height: 25rem;
+    margin-top: 3rem;
+  }
+
+  .our_clients_item_div_text {
+    .Svg1 {
+      display: none;
+    }
+    .Svg2 {
+      display: none;
+    }
+  }
+  .our_clients_top_div_title {
+    h3 {
+      font-weight: 700 !important;
+      font-size: 25px !important;
+      margin-bottom: 1rem;
+    }
+  }
+  .our_clients_top_div {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .our_clients_top_union3 {
+    display: none;
+  }
+  .our_clients_top_union2 {
+    display: none;
+  }
+  .our_clients_top_union1 {
+    display: none;
+  }
+  .our_clients_top_div {
+    .our_clients_item_div {
+      width: 95%;
+      h3 {
+        font-weight: 600 !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+  .desktop_tab_div_title {
+    h3 {
+      font-weight: 700 !important;
+      font-size: 22px !important;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 11px;
+      margin-bottom: 8px;
+    }
+  }
+  .mobile_tab_div {
+    display: block;
+  }
+  .package_card_top_right {
+    margin-top: 1rem;
+  }
+  .package_card_header {
+    h3 {
+      font-weight: 700 !important;
+      font-size: 17px !important;
+    }
+  }
+  .package_card_box {
+    min-height: auto;
+  }
+  .package_card_top_3 {
+    overflow: unset;
+    height: auto;
+  }
+  .package_card_up {
+    display: none;
+  }
+  .package_card_top_4 {
+    display: none;
+  }
+  .package_card_box {
+    h3 {
+      position: relative;
+      top: unset;
+      left: unset;
+      font-size: 14px !important;
+    }
+  }
+  .package_card_bottom {
+    margin-top: 15px !important;
+    .package_card_header {
+      display: block;
+    }
+    .package_card_recommended_div {
+      display: unset;
+    }
+  }
+  .cart_tabel {
+    overflow-x: auto;
+    display: block;
+  }
+  .img_view_modal_inner_div {
+    max-height: 33rem;
+  }
+  .img_view_modal_div {
+    width: 95%;
+  }
+  .design_inspiration_modal_div {
+    width: 95% !important;
+  }
+  .testimonial_riv_div {
+    padding: 0 0rem;
+  }
+  .testimonial_top_inner_div {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    h3 {
+      font-size: 26px !important;
+      br {
+        display: none;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 1rem;
+      br {
+        display: none;
+      }
+    }
+    .video {
+      width: 100%;
+      height: 315px;
+    }
+  }
+  .YourServices_new_address_div_inner_li {
+    width: 100%;
+  }
+  .YourServices_new_img_text_btn2_div {
+    text-align: center;
+  }
+  .YourServices_new_inner_new {
+    .YourServices_new_img_text_btn2 {
+      position: relative;
+      right: unset;
+      top: unset;
+      width: 100%;
+      margin-top: 13px;
+    }
+  }
+  .delete_modal_my {
+    width: 95% !important;
+  }
+  .questionare_page_end h3 {
+    font-weight: 600 !important;
+    font-size: 21px !important;
+  }
+  .questionare_page_end_hr_div {
+    hr {
+      margin-top: -35px;
+      width: 90%;
+    }
+  }
+  .gif_img {
+    height: 15rem;
+    width: 100%;
+  }
+  .questionare_page_start {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .questionare_page_start_inner {
+    padding: 0 15px;
+    p {
+      margin-bottom: 5px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .YourServices_new_img_text_btn2 {
+    position: absolute;
+    right: 1rem;
+    top: -21%;
+    font-size: 12px !important;
+  }
+  .YourServices_new_img_div {
+    padding: 1rem;
+  }
+  .YourServices_new_address_price_div {
+    .price_inner {
+      position: absolute;
+      right: 0%;
+    }
+  }
+  .YourServices_new_address_inner {
+    position: relative;
+    right: unset;
+    top: unset;
+    margin-top: 17px;
+  }
+  .YourServices_new_address_div {
+    margin-top: 1rem;
+    ul {
+      display: block;
+    }
+    .address_div {
+      width: 100%;
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 18px !important;
+    }
+  }
+  .YourServices_new_img_text_btn {
+    position: absolute;
+    right: 1rem;
+    top: -7rem;
+    font-size: 12px !important;
+  }
+  .YourServices_new_inner3 {
+    position: relative;
+    right: unset;
+    top: unset;
+    .YourServices_new_inner_inner {
+      text-align: left;
+    }
+  }
+  .YourServices_new_top {
+    display: block;
+  }
+  .YourServices_new_inner2 {
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .mobile_nav_div {
+    margin-bottom: 3rem;
+  }
+  .mobile_nav_div_text {
+    font-size: 21px !important;
+  }
+  .getstartbtn_new {
+    width: 100% !important;
+  }
+  .CenterMode_top {
+    .slick-slider {
+      padding: 0 0rem;
+    }
+    .slick-prev {
+      left: 254px;
+      top: 132px;
+    }
+    .slick-next {
+      right: 254px;
+      top: 132px;
+    }
+  }
+  .design_inspiration_img {
+    height: 13rem;
+    width: 100%;
+  }
+  .careers_profile_text_div {
+    h3 {
+      font-size: 16px !important;
+    }
+  }
+  .tab_main_top_div {
+    .nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      overflow-x: scroll;
+      width: 100%;
+      flex-wrap: nowrap;
+    }
+  }
+  .careers_profile_text_left {
+    p {
+      width: 100%;
+      margin-top: 1.5rem;
+      font-size: 13px;
+      line-height: 19px;
+      padding-left: 10px;
+      text-align: justify;
+    }
+  }
+  .mobile_app_tab {
+    .nav {
+      overflow-x: scroll;
+      width: 100%;
+      flex-wrap: nowrap;
+      display: flex;
+      .nav-link {
+        width: 12rem;
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+  .grleads {
+    background-image: none;
+  }
+  .services_modal_page_div {
+    .services_modal_page_inner {
+      top: 0rem;
+      left: 0rem;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+  .creationsublink {
+    font-size: 20px;
+  }
+  .stepper_inner_title_div {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    h3 {
+      font-size: 15px !important;
+      margin: 0;
+    }
+  }
+  .step_inner_main_top_div {
+    .MuiStep-horizontal {
+      margin: auto;
+      padding: 0;
+    }
+  }
+  .stepper_inner_div {
+    width: 100%;
+  }
+  .step_title_div {
+    .step_title_div_inner {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    margin-top: 0;
+  }
+  .step_title_div {
+    h3 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .Step6_inner_div {
+    textarea {
+      width: 100%;
+    }
+  }
+  .questionare_page_ul_div {
+    display: flex;
+    padding: 0;
+  }
+  .Client_Profile_main_top_div_inner {
+    display: none;
+  }
+  .get_in_touch_video {
+    padding: 2rem 0;
+  }
+  .get_in_touch_video_inner {
+    h3 {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .Banner_text_div {
+    h3 {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 0;
+      br {
+        display: none;
+      }
+      span {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      text-align: justify;
+    }
+  }
+
+  .video_top_main_div2 {
+    padding: 40px 10px;
+  }
+  .MyCountUp_text_div {
+    margin-bottom: 0rem;
+    h3 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 11px;
+      line-height: 19px;
+      span {
+        line-height: 19px;
+      }
+    }
+  }
+  .video_TopDiv_title_2 {
+    text-align: center;
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .vm2_img {
+    height: 12rem;
+    width: 18rem;
+  }
+  .video_TopDiv_title {
+    text-align: center;
+    h1 {
+      margin-top: 1rem;
+      font-size: 25px;
+    }
+    p {
+      font-size: 11px;
+      letter-spacing: 0;
+    }
+  }
+  .vm1_img {
+    height: 10rem;
+    width: 16rem;
+  }
+  .shopping_cart {
+    .shopping_cart_a_div {
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
+  .getintouch_bottom_btn_div {
+    text-align: center;
+  }
+  .getintouch_upload_div {
+    display: block;
+    .getintouch_upload_btn {
+      text-align: center;
+    }
+  }
+  .getintouch_title_top_div {
+    .getintouch_title_big_title {
+      span {
+        height: 67px;
+        top: 6px;
+        left: -7px;
+      }
+    }
+    h2 {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 19px;
+      margin-top: 1rem;
+      span {
+        width: auto;
         font-size: 15px;
       }
     }
   }
-  .Contractor_Management_main_div {
-    display: inline-table;
-  }
-  .Completed_Jobs_List_feedback_star {
-    justify-content: flex-end;
-  }
-  .document_verification_app_btn_div {
-    button {
-      margin-top: 0;
-    }
-  }
-  .ScheduleInterview_top_div {
-    width: 70%;
-  }
-  .HiredCandidates_tabel_main_div {
-    display: inline-table;
-  }
-  .Feedback_Ratings_div_hired {
-    span {
-      margin-left: 5px;
-      font-size: 12px !important;
-    }
-    h6 {
-      margin-left: 8px;
-      font-size: 14px;
-    }
-  }
-  .JobsList_img {
-    height: 3rem;
-    width: 3rem;
-  }
-  .new_application_item {
-    .new_application_tabs1 {
-      width: 98%;
-    }
-  }
-  .TotalOpenings_input_div {
-    input {
-      width: 90%;
-    }
-  }
-  .upcoming_interviews_ul {
-    li {
-      padding: 6px 15px;
-    }
-  }
-  .HiringIndexCard_more_card_div {
-    padding: 0;
-  }
-  .DashbordBg_icon1 {
-    width: 3rem;
-    height: 3rem;
-  }
-  .DashbordBg_icon_top_div_iner {
-    p {
-      font-size: 14px;
-    }
-  }
-  .AppraisalSetting_inner_main_div {
-    width: 50%;
-  }
-  .default_salary_stracture_main_div {
-    display: grid;
-  }
-  .CompanySetup_inner_main_div {
-    width: 80%;
-  }
-  .Reports_main_div {
-    display: inline-table;
-  }
-  .Reports_card_inner_div {
-    p {
-      font-size: 12px;
-    }
-  }
-  .Appraisal_stap_1_top_btn {
-    right: -10rem;
-  }
-  .Appraisal_progress_bar_custom_container {
-    margin: 0 10rem;
-  }
-  .MyPerformance_chart_div2 {
-    margin-top: 1.5rem;
-  }
-  .EmployeesAttendanceList_main_div {
-    display: block;
-  }
-  .profile_input_div_finance {
+  .checkout_back_btn_div {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
   }
-  .profile_tab_div2 {
-    .nav-item {
-      margin: 2px;
-      margin-bottom: 2px;
-      width: 12rem;
-      text-align: center;
+  .checkout_btn {
+    justify-content: center;
+  }
+  .payment_modes_tab_div {
+    .nav-link {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 10px;
     }
-    .nav-pills {
-      .nav-link {
-        border-radius: 6px !important;
+    .nav {
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .checkout_address {
+    width: 100%;
+  }
+  .shopping_cart_top_title {
+    margin-left: 0;
+    a {
+      margin-left: 1rem !important;
+    }
+  }
+  .shopping_cart_name {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+  }
+  .shopping_cart_price {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .shopping_cart_service {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .shopping_cart {
+    a {
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
+  .my_slick_slider_title {
+    text-align: center;
+  }
+  .my_slick_slider {
+    .slick-prev {
+      left: -3% !important;
+      top: 6rem !important;
+    }
+    .slick-next {
+      right: 2% !important;
+      top: 6rem !important;
+    }
+  }
+  .saved_cards_number {
+    justify-content: center;
+    p {
+      span {
+        font-size: 16px;
+        margin-right: 10px;
       }
     }
-  }
-  .Experience_timline_edit_img {
-    right: 3%;
-  }
-  .EmployeesProfileCard_icon {
-    width: 4rem;
-    height: 4rem;
-  }
-  .EmployeesProfileCard_text_div {
-    margin-top: 8px;
-    h3 {
-      font-size: 26px;
+    img {
+      width: 39px;
+      margin-top: 4px;
     }
   }
-  .notification_top_new2 {
-    width: 46vw;
-    height: 51rem;
+  .payment_card {
+    margin-top: 1rem;
+    width: 100%;
   }
-  .EditPost_img {
-    height: 10rem;
-    width: 15rem;
+  .my_proprogress_div_text {
+    margin-top: 1.5rem;
   }
-  .UserPost_img {
-    height: 33rem;
+  .my_proprogress_div {
+    margin-top: 6px;
   }
-  .whp_away_card_overflow_div {
-    overflow: scroll;
-    height: 12rem;
+  .your_services_card_btn_Monthly {
+    position: unset;
+    margin-right: 15px;
+    border-radius: 25px;
   }
-  .WhoAwayAppCard_top_img_div {
-    margin-right: 5px;
+  .your_services_card {
+    margin: 0 0rem;
+    text-align: center;
+    h3 {
+      font-size: 20px;
+    }
+    .full_btn {
+      position: unset;
+      margin-top: 1.5rem;
+    }
   }
-  .ApprovalsCard_modal_pic_overlay {
-    width: 15rem;
+  .account_edit_icon {
+    right: 10px;
   }
-  .ApprovalsCard_modal_pic_bottom_title_div {
-    width: 15rem;
+  .account_input_title_top_inner {
+    margin-left: 0rem;
   }
-  .ApprovalsCard_modal_pic {
-    width: 15rem;
-  }
-  .ApprovalDetailsPage_main_div {
-    display: inline-table;
-  }
-  .ApprovalDetailsPage_search_input_iner_div {
-    span {
-      left: 5%;
+  .form_input_div {
+    label {
+      margin-bottom: 5px;
     }
     input {
-      padding-left: 35px;
+      width: 100%;
     }
   }
-  .ApprovalDetailsPage_search_input {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+  .acount_img {
+    margin: auto;
   }
-  .reimbursement_top_title_link_page {
-    margin-top: -3px;
+  .account_btn_div {
+    text-align: center;
   }
-  .working_time_info {
+  .acount_title_div {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .all_p_title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .all_h1_title {
+    font-size: 40px;
+  }
+  .your_slow_loading {
+    h3 {
+      margin-top: 1.5rem;
+    }
+  }
+  .why_you_need_number {
+    h3 {
+      font-size: 25px;
+      margin-bottom: 1.5rem;
+    }
+    h4 {
+      font-size: 30px;
+    }
     p {
+      font-size: 11px;
+    }
+  }
+  .why_you_need_top_text {
+    p {
+      font-size: 18px;
+    }
+  }
+  .website_redesign_text_img_div {
+    img {
+      width: 100%;
+      height: 25rem;
+      @include bg_img;
+      margin-top: 0rem;
+    }
+  }
+  .website_redesign_text_div {
+    h3 {
+      font-size: 30px;
+    }
+  }
+  .Agreement_btn_div {
+    button {
+      width: 20%;
+    }
+  }
+  .Search_my_div {
+    width: 70%;
+    img {
+      width: 15px;
+    }
+    input {
+      padding-left: 45px;
+    }
+  }
+  .video_div {
+    width: 100%;
+    height: 23rem;
+  }
+  .view_case_studies_img {
+    width: 100%;
+    height: 22rem;
+  }
+  .view_case_studies_text_div {
+    h3 {
+      font-size: 37px;
+    }
+  }
+  .our_clients_top_union3 {
+    position: absolute;
+    bottom: 17px;
+    right: 8rem;
+  }
+  .our_clients_top_union2 {
+    position: absolute;
+    top: 7rem;
+    right: 2rem;
+  }
+  .our_clients_top_union1 {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+  }
+  .our_clients_top_div {
+    .our_clients_item_div {
+      width: 80%;
+    }
+  }
+  .mobile_tab_div {
+    display: none;
+  }
+  .package_card_top_right {
+    margin-top: 1rem;
+  }
+  .package_card_header {
+    h3 {
       font-size: 15px;
     }
   }
-
-  .dashbaord_white_title {
-    p {
-      font-size: 14px;
+  .package_card_top_4 {
+    display: none;
+  }
+  .package_card_box {
+    h3 {
+      position: relative;
+      top: unset;
+      left: unset;
     }
   }
-  .celebrations_card_user_info {
-    p {
-      font-size: 11px;
+  .img_view_modal_inner_div {
+    max-height: 33rem;
+  }
+  .img_view_modal_div {
+    width: 70%;
+    // height: 40rem;
+  }
+  .testimonial_riv_div {
+    padding: 0 0rem;
+  }
+  .YourServices_new_address_div_inner_li {
+    width: 70%;
+  }
+  .buy_packig_new_dropdown_div {
+    .dropdown-menu.show {
+      width: 100%;
     }
-  }
-  .dashbaord_imfo_card_text {
-    h4 {
-      font-size: 11px;
-    }
-  }
-  .top_nav_iner_div_input {
-    margin: 0 3rem;
-  }
-  .menu_container {
-    height: 40rem;
-  }
-}
-@media (min-width: 1440px) {
-  .slider_text_my_inner {
-    margin-top: -3rem;
-  }
-  .login_input_div {
-    p {
-      padding: 0 9rem;
-    }
-  }
-  .status_top_div_inner {
-    width: 40%;
-  }
-  .projact_right_filter_data {
-    height: 30rem;
-  }
-  .RejectedDetails_time {
-    text-align: center;
-  }
-  .AddAsset_top_inner_div {
-    width: 80%;
-  }
-  .Feedback_Ratings_div_hired {
-    span {
-      margin-left: 8px;
-    }
-  }
-  .HiredCandidates_tabel_main_div {
-    display: inline-table;
-  }
-  .new_application_item {
-    .new_application_tabs1 {
-      width: 17rem;
-    }
-  }
-  .upcoming_interviews_ul {
-    li {
-      padding: 6px 25px;
-    }
-  }
-  .HiringIndexCard_more_card_div {
-    padding: 0;
-  }
-  .DashbordBg_icon_top_div_iner {
-    p {
-      font-size: 16px;
-    }
-  }
-  .DashbordBg_icon1 {
-    width: 4rem;
-    height: 4rem;
-  }
-  .default_salary_stracture_main_div {
-    display: block;
-  }
-  .CompanySetup_inner_main_div {
-    width: 60%;
-  }
-  .Reports_card_inner_div {
-    p {
-      font-size: 16px;
-    }
-  }
-  .EmployeesAttendanceList_main_div {
-    display: block;
-  }
-  .profile_tab_div2 {
-    .nav-item {
-      margin-bottom: unset;
-      text-align: center;
-    }
-    .nav-pills {
-      .nav-link {
-        border-radius: 6px !important;
+    button {
+      width: 100%;
+      &::after {
+        right: 11px;
       }
     }
   }
-  .notification_top_new2 {
-    width: 41vw;
-    height: 43rem;
+  .YourServices_new_address_inner {
+    // position: absolute;
+    right: 7rem;
   }
-  .whp_away_card_overflow_div {
-    overflow: scroll;
-    height: 15.4rem;
+  .getstartbtn_new {
+    width: 40% !important;
   }
-  .WhoAwayAppCard_top_img_div {
-    margin-right: 2rem;
+  .new3 {
+    img {
+      width: 58%;
+    }
   }
-  .reimbursement_top_title_link_page {
-    margin-top: 3px;
+  .CenterMode_top {
+    .slick-next {
+      right: 146px;
+      top: 87px;
+    }
+    .slick-prev {
+      left: 146px;
+      top: 87px;
+    }
   }
-  .working_time_info {
+  .careers_profile_text_left {
     p {
-      font-size: 16px;
+      width: 100%;
+    }
+  }
+  .mobile_app_tab {
+    .nav {
+      overflow-x: scroll;
+      width: 100%;
+      flex-wrap: nowrap;
+      display: flex;
+      .nav-link {
+        width: 12rem;
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+  .stepper_inner_div {
+    width: 100%;
+  }
+  .step_title_div {
+    .step_title_div_inner {
+      width: 100%;
+    }
+  }
+  .Step6_inner_div {
+    textarea {
+      width: 90%;
+    }
+  }
+  .questionare_page_top_div {
+    progress {
+      width: 90%;
+      left: 40px;
     }
   }
 
-  .dashbaord_white_title {
+  .video_TopDiv_title_2 {
+    h1 {
+      font-size: 30px;
+    }
     p {
-      font-size: 16px;
+      font-size: 11px;
     }
   }
-  .celebrations_card_user_info {
+  .vm2_img {
+    height: 13rem;
+    width: 21rem;
+  }
+  .video_TopDiv_title {
+    h1 {
+      font-size: 30px;
+    }
     p {
-      font-size: 12px;
+      font-size: 11px;
     }
   }
-  .dashbaord_imfo_card_text {
+  .vm1_img {
+    height: 13rem;
+    width: 21rem;
+  }
+
+  .payment_modes_tab_div {
+    .nav-link {
+      width: 12rem;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .saved_cards_number {
+    p {
+      span {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+    img {
+      width: 45px;
+    }
+  }
+  .payment_card {
+    width: 65%;
+  }
+  .your_services_card {
+    margin: 0 0rem;
+  }
+  .account_input_title_top_inner {
+    margin-left: 0rem;
+  }
+  .form_input_div {
+    label {
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .all_p_title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .all_h1_title {
+    font-size: 40px;
+  }
+  .your_slow_loading {
+    h3 {
+      margin-top: 0;
+    }
+  }
+  .your_slow_loading_img {
+    width: 100%;
+    height: 21rem;
+  }
+  .why_you_need_number {
+    h3 {
+      font-size: 40px;
+      margin-bottom: 3rem;
+    }
     h4 {
+      font-size: 50px;
+    }
+    p {
       font-size: 14px;
     }
   }
-  .top_nav_iner_div_input {
-    margin: 0 8rem;
-  }
-}
-@media (min-width: 1558px) {
-  .projact_right_filter_data {
-    height: 43rem;
-  }
-  .EmployeesAttendanceList_main_div {
-    display: inline-table;
-  }
-}
-@media (min-width: 1700px) {
-  .projact_right_filter_data {
-    height: 53rem;
-  }
-  .top_nav_iner_div_input {
-    margin: 0 8rem;
-    span {
-      left: 1rem;
+  .why_you_need_top_text {
+    p {
+      font-size: 28px;
     }
   }
-}
-@media (min-width: 1900px) {
-  .projact_right_filter_data {
-    height: 56rem;
+  .website_redesign_text_img_div {
+    img {
+      width: 100%;
+      height: 25rem;
+      @include bg_img;
+      margin-top: 0rem;
+    }
   }
-  .UserPost_img {
-    height: 45rem;
+  .website_redesign_text_div {
+    h3 {
+      font-size: 40px;
+    }
   }
-}
-@media (min-width: 2000px) {
-  .projact_right_filter_data {
-    height: 60rem;
+  .Agreement_btn_div {
+    button {
+      width: 15%;
+    }
   }
-  .HrRegister_main_div {
+  .Search_my_div {
+    width: 50%;
+    img {
+      width: 15px;
+    }
+    input {
+      padding-left: 45px;
+    }
+  }
+  .video_div {
+    width: 100%;
+    height: 30rem;
+  }
+  .view_case_studies_text_div {
+    h3 {
+      font-size: 48px;
+    }
+  }
+  .view_case_studies_img {
+    width: 100%;
+    height: 28rem;
+  }
+  .our_clients_top_div {
+    .our_clients_item_div {
+      width: 50%;
+    }
+  }
+  .our_clients_top_union3 {
+    bottom: 17px;
+    right: 15rem;
+  }
+  .our_clients_top_union2 {
+    top: 7rem;
+    right: 6rem;
+  }
+  .our_clients_top_union1 {
+    top: 9rem;
+    left: 7rem;
+  }
+  .package_card_header {
+    h3 {
+      font-size: 15px;
+    }
+  }
+  .package_card_top_4 {
     display: block;
   }
-}
-@media (min-width: 2100px) {
-  .HrRegister_main_div {
-    display: inline-table;
+  .package_card_box {
+    h3 {
+      position: absolute;
+      top: 12px;
+      left: -13rem;
+    }
+  }
+  .package_card_top_right {
+    margin-top: 1rem;
+  }
+  .package_card_header {
+    h3 {
+      font-size: 15px;
+    }
+  }
+  .img_view_modal_inner_div {
+    max-height: 43rem;
+  }
+  .img_view_modal_div {
+    width: 70%;
+  }
+  .testimonial_riv_div {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0 0rem;
+  }
+  .YourServices_new_address_div_inner_li {
+    width: 80%;
+  }
+  .cart_div_new {
+    img {
+      height: 5rem;
+      width: 5rem;
+    }
+    .cart_div_new_title {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .cart_div_new_price {
+      font-size: 18px;
+    }
+  }
+  .buy_packig_new_dropdown_div {
+    .dropdown-menu.show {
+      width: 100%;
+    }
+    button {
+      width: 100%;
+      &::after {
+        right: 11px;
+      }
+    }
+  }
+  .YourServices_new_address_inner {
+    // position: absolute;
+    right: 10rem;
+  }
+  .getstartbtn_new {
+    width: 28% !important;
+  }
+  .new3 {
+    img {
+      width: 70%;
+    }
+  }
+  .CenterMode_top {
+    .slick-next {
+      right: 146px;
+      top: 87px;
+    }
+    .slick-prev {
+      left: 146px;
+      top: 87px;
+    }
+  }
+
+  .design_inspiration_img {
+    height: 13rem;
+    width: 100%;
+  }
+  .careers_profile_text_left {
+    p {
+      width: 92%;
+    }
+  }
+  .mobile_app_tab {
+    .nav {
+      overflow-x: unset;
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+    }
+    .nav-item {
+      margin: auto;
+      .nav-link {
+        width: unset;
+        text-align: unset;
+        font-size: 13px;
+      }
+    }
+  }
+  .stepper_inner_div {
+    width: 75%;
+  }
+  .step_title_div {
+    .step_title_div_inner {
+      width: 80%;
+    }
+  }
+  .Step6_inner_div {
+    textarea {
+      width: 70%;
+    }
+  }
+  .questionare_page_top_div {
+    progress {
+      width: 90%;
+      left: 53px;
+    }
+  }
+
+  .video_TopDiv_title_2 {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .vm2_img {
+    height: 19rem;
+    width: 29rem;
+  }
+  .video_TopDiv_title {
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .vm1_img {
+    height: 19rem;
+    width: 30rem;
+  }
+
+  .payment_modes_tab_div {
+    .nav-link {
+      width: 12rem;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+  .checkout_address {
+    width: 80%;
+  }
+  .my_slick_slider {
+    .slick-prev {
+      left: -4% !important;
+      top: 6rem !important;
+    }
+    .slick-next {
+      right: -2% !important;
+      top: 6rem !important;
+    }
+  }
+  .saved_cards_number {
+    p {
+      span {
+        font-size: 15px;
+        margin-right: 7px;
+      }
+    }
+    img {
+      width: 45px;
+    }
+  }
+  .payment_card {
+    width: 48%;
+  }
+  .your_services_card {
+    margin: 0 0rem;
+  }
+  .form_input_div {
+    label {
+      margin-bottom: 0;
+    }
+    input {
+      width: 640px;
+    }
+  }
+  .account_input_title_top_inner {
+    margin-left: 6rem;
   }
 }
-@media (min-width: 1900px) {
-  .main_home_hero_sec .ih-item.square.effect13 .info p {
-    margin-left: 275px;
+@media (min-width: 1440px) {
+  .all_h1_title {
+    font-size: 40px;
+  }
+  .all_p_title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .your_slow_loading_img {
+    width: 100%;
+    height: 25rem;
+  }
+  .why_you_need_number {
+    h3 {
+      font-size: 40px;
+      margin-bottom: 3rem;
+    }
+    h4 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .website_redesign_text_img_div {
+    img {
+      width: 100%;
+      height: 25rem;
+      margin-top: 3rem;
+    }
+  }
+  .website_redesign_text_div {
+    padding-top: 3rem;
+    h3 {
+      font-size: 48px;
+      margin-bottom: 2rem;
+    }
+  }
+  .Search_my_div {
+    width: 37%;
+    img {
+      width: 15px;
+    }
+    input {
+      padding-left: 45px;
+    }
+  }
+  .view_case_studies_img {
+    width: 100%;
+    height: 31rem;
+  }
+  .our_clients_top_union3 {
+    bottom: 17px;
+    right: 21rem;
+  }
+  .our_clients_top_union2 {
+    top: 6rem;
+    right: 10rem;
+  }
+  .our_clients_top_union1 {
+    top: 10rem;
+    left: 14rem;
+  }
+  .package_card_top_right {
+    margin-top: 0;
+  }
+  .package_card_header {
+    h3 {
+      font-size: 17px;
+    }
+  }
+  .img_view_modal_inner_div {
+    max-height: 43rem;
+  }
+  .img_view_modal_div {
+    width: 50%;
+  }
+  .testimonial_riv_div {
+    padding: 0 7rem;
+  }
+  .cart_div_new {
+    img {
+      height: 5rem;
+      width: 5rem;
+    }
+    .cart_div_new_title {
+      font-size: 15px;
+      line-height: 17px;
+    }
+    .cart_div_new_price {
+      font-size: 18px;
+    }
+  }
+  .buy_packig_new_dropdown_div {
+    .dropdown-menu.show {
+      width: 85%;
+    }
+    button {
+      width: 85%;
+      &::after {
+        right: 35px;
+      }
+    }
+  }
+  .getstartbtn_new {
+    width: 22% !important;
+  }
+  .CenterMode_top {
+    .slick-next {
+      right: 146px;
+      top: 83px;
+    }
+    .slick-prev {
+      left: 146px;
+      top: 83px;
+    }
+  }
+
+  .design_inspiration_img {
+    height: 15rem;
+    width: 100%;
+  }
+  .mobile_app_tab {
+    .nav-item {
+      margin: auto;
+      .nav-link {
+        font-size: 15px;
+      }
+    }
+  }
+  .step_title_div {
+    .step_title_div_inner {
+      width: 65%;
+    }
+  }
+  .Step6_inner_div {
+    textarea {
+      width: 50%;
+    }
+  }
+  .questionare_page_top_div {
+    progress {
+      width: 90%;
+    }
+  }
+
+  .video_TopDiv_title_2 {
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .vm2_img {
+    height: 22rem;
+    width: 35rem;
+  }
+  .vm1_img {
+    height: 22rem;
+    width: 35rem;
+  }
+
+  .payment_modes_tab_div {
+    .nav-link {
+      width: 13rem;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+  .checkout_address {
+    width: 45%;
+  }
+  .my_slick_slider {
+    .slick-prev {
+      left: -2% !important;
+      top: 6rem !important;
+    }
+    .slick-next {
+      right: -2% !important;
+      top: 6rem !important;
+    }
+  }
+  .saved_cards_number {
+    p {
+      span {
+        font-size: 27px;
+        margin-right: 10px;
+      }
+    }
+    img {
+      width: 45px;
+    }
+  }
+  .payment_card {
+    width: 35%;
+  }
+  .your_services_card {
+    margin: 0 10rem;
   }
 }

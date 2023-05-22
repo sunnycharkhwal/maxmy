@@ -1,12 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 import "./scss/index.scss";
 import "./scss/res.scss";
-import "./scss/Management/Management.scss";
-import "./scss/Management/ManagementResponsive.scss";
-import "rsuite/dist/rsuite.min.css";
-import App from "./App";
-import "react-calendar/dist/Calendar.css";
+import "./styles/style.scss";
+import "./styles/res.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import { App } from "./App";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

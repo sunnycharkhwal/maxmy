@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  .designPillsContainer {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .checkout_address {
+    width: 60%;
+  }
+  .my_slick_slider {
+    .slick-prev {
+      left: -2% !important;
+      top: 6rem !important;
+    }
+    .slick-next {
+      right: -2% !important;
+      top: 6rem !important;
+    }
+  }
+}
+@media (min-width: 1440px) {
+}

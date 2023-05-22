@@ -1,0 +1,17 @@
+<svg width="242" height="145" viewBox="0 0 242 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1303_2972)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.715 24.9996L20.2383 12L31.0003 37.5555V109C31.0003 113.418 34.582 117 39.0003 117H214C218.419 117 222 113.418 222 109V32.9996C222 28.5813 218.419 24.9996 214 24.9996H49.715Z" fill="#D7EAFF"/>
+</g>
+<defs>
+<filter id="filter0_d_1303_2972" x="0.238281" y="0" width="241.762" height="145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1303_2972"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1303_2972" result="shape"/>
+</filter>
+</defs>
+</svg>
